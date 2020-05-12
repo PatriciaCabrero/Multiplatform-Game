@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Entity">
+      <UniqueIdentifier>{0e5a675c-b3a2-4f2b-b5b5-acfd93c08d07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\PC">
+      <UniqueIdentifier>{96f68081-e3e2-4239-bba5-b911c20faa83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Shared">
+      <UniqueIdentifier>{acc2195a-7858-443c-9c14-d10a5e900f84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Entity">
+      <UniqueIdentifier>{0ce8f239-229e-4f03-bfcd-43daec2484d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\Shared">
+      <UniqueIdentifier>{20747078-90dc-4b1e-8572-c165695ec06d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de origen\PC">
+      <UniqueIdentifier>{3b4c6f96-22db-4795-aed1-cd3fdc5848e3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Src\main.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Entity\Fruit\Fruit.cpp">
+      <Filter>Archivos de origen\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Entity\Snake\Snake.cpp">
+      <Filter>Archivos de origen\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\CollisionEngine\CollisionEngine.cpp">
+      <Filter>Archivos de origen\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Logic\Logic.cpp">
+      <Filter>Archivos de origen\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Thread\RenderThread.cpp">
+      <Filter>Archivos de origen\Shared</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Platform\x64\Platform_x64.cpp">
+      <Filter>Archivos de origen\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Renderer\x64\Renderer_x64.cpp">
+      <Filter>Archivos de origen\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Entity\Wall\Wall.cpp">
+      <Filter>Archivos de origen\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Input\x64\UserManager_x64.cpp">
+      <Filter>Archivos de origen\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Input\x64\Input_x64.cpp">
+      <Filter>Archivos de origen\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Input\x64\EventsListener.cpp">
+      <Filter>Archivos de origen\PC</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Src\Entity\Scoreboard\Scoreboard.cpp">
+      <Filter>Archivos de origen\Entity</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Src\Entity\Fruit\Fruit.h">
+      <Filter>Archivos de encabezado\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Entity\Entity.h">
+      <Filter>Archivos de encabezado\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Entity\Snake\Snake.h">
+      <Filter>Archivos de encabezado\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\x64\Renderer_x64.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\x64\Platform_x64.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Logic\Logic.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Platform\Platform.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Renderer\Renderer.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Thread\RenderThread.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Thread\ConcurrentQueue.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\CollisionEngine\CollisionEngine.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Entity\Wall\Wall.h">
+      <Filter>Archivos de encabezado\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\UserManager.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\Input.h">
+      <Filter>Archivos de encabezado\Shared</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\x64\UserManager_x64.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\x64\Input_x64.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\x64\EventsListener.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Input\x64\PriorityQueue.h">
+      <Filter>Archivos de encabezado\PC</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Config.h">
+      <Filter>Archivos de encabezado</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Src\Entity\Scoreboard\Scoreboard.h">
+      <Filter>Archivos de encabezado\Entity</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
